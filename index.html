@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CV page</title>
+</head>
+<body>
+    <header class="header">
+        <img src="assets/photo.jpg" alt="my photo" class="logo">
+        <h1 class="header__title">Dimon&Pumba</h1>
+        <h2 class="header__subtitle">Ne Vibecoder</h2>
+    </header>
+
+    <main>
+        <section class="skills">
+            <h3>Skills</h3>
+            <details>
+                <summary>Skills list: </summary>
+
+                <ol>
+                    <li>1. HTML</li>
+                    <li>2. CSS</li>
+                    <li>3. JS</li>
+                    <li>4. React</li>
+                    <li>5. TS</li>
+                </ol>
+            </details>
+
+        </section>
+
+        <article class="article">
+            <h4> Short article about me</h4>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit possimus, mollitia porro corrupti aliquam ad ut eius! Amet, culpa deserunt saepe officiis dicta nobis ipsa excepturi cupiditate, rem, fuga soluta!
+            </p>
+        </article>
+
+        <section class="gallery">
+            <h3> Gallery</h3>
+            <img src="https://sun9-32.vkuserphoto.ru/s/v1/ig2/OsJcwOIjOpLyNj0KXeekHzMmnOg-8plPagEsPnBX0Cw4tgF4jKKSun0-nypGywsJYmXAf8GsT6itu-cbY4WxZEsY.jpg?quality=95&as=32x43,48x64,72x96,108x144,160x213,240x320,360x480,480x640,540x720,640x853,720x960,960x1280&from=bu&u=aemG8an1qv0jEd2bcPdryMuTAwnrlmufZZ5vV3llvCY&cs=360x0" alt="my photo">
+            <img src="https://sun9-55.vkuserphoto.ru/s/v1/ig2/D4s4lUMj8pmczBTjsuKEAZchnTAa4cCrVUjLB18CXdUlzERoKfogT06mkWx3prdZeJN9GC9eoxeOIWSSYFh0cz28.jpg?quality=95&as=32x43,48x64,72x96,108x144,160x213,240x320,360x480,480x640,540x720,640x853,720x960,1080x1440,1280x1707,1440x1920,1920x2560&from=bu&u=x57uAC0FPyzr40IKJx7CCO6qlXrWKrF_GCLaKUl_3ck&cs=360x0" alt="my photo">
+            <img src="https://sun9-35.vkuserphoto.ru/s/v1/ig2/BNHqyHUGGHIH9uqU_LN3DWmisQXxe0fCWIPofIpXHc89J7JMmCVwAzVlmgJVZWqtvSi1xXQdZLQt8gKvI-4g-Xmg.jpg?quality=95&as=32x43,48x64,72x96,108x144,160x213,240x320,360x480,480x640,540x720,640x853,720x960,1080x1440,1200x1600&from=bu&u=ew8s4_genVkzpCPBtz-Jb9WO2AgGs04KzeDDl5b9Kpc&cs=240x0" alt="my photo">
+        </section>
+
+        <hr class="separator">
+
+        <section class="video">
+            <iframe src="https://www.youtube.com/embed/wsrrXH-QCJY" title="СТАРЫЙ БОГ vs 100 РЕКРУТОВ! 😱 НЕРЕАЛЬНЫЙ ПРАЙМ! (ft. Dmitry_Lixxx)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section class="hobbies">
+            <h4>my hobbies</h4>
+
+            <details>
+                <summary> Hobbies</summary>
+
+                <ol>
+                    <li>1.Gaming</li>
+                    <li>2.walking</li>
+                    <li>3.reading</li>
+                </ol>
+            </details>
+        </section>
+
+        <hr class="separator">
+
+        <section class="education">
+            <table class="ed_table">
+                <thead>
+                    <tr>
+                        <th>School</th>
+                        <th>Profession</th>
+                        <th>Year</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>IT School 1</td>
+                        <td>Angular dev</td>
+                        <td>2019</td>
+                    </tr>
+                    <tr>
+                        <td>IT School 2</td>
+                        <td>React dev</td>
+                        <td>2020</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="quote">
+            <blockquote>
+                Действие - это единственный путь к успеху
+            </blockquote>
+        </section>
+
+        <section class="interaction">
+            <form action="https://ya.ru" method="get" class="form" target="_blank">
+                <fieldset>
+                    <legend>required fields:</legend>
+                    
+                        <label for="firstname-id">FirstName</label>
+                        <input type="text" name="FirstName" id="firstname-id" title="Заполните форму" required class="form-control" placeholder="FirstName">
+                    
+                    
+                        <label for="lastname-id">LastName</label>
+                        <input type="text" name="LastName" id="lastname-id" title="Заполните форму" required class="form-control" placeholder="LastName">
+                    
+                    
+                        <label for="email-id">Email</label>
+                        <input type="email" name="email" id="email-id" title="Заполните форму" required class="form-control" placeholder="Email">
+                    
+                    </fieldset>
+                <br>
+                <textarea name="questions" rows="7" class="form-control control-text" placeholder="Questions?"></textarea>
+
+                <button type="submit" class="form-submit">Кнопка</button>
+            </form>
+        </section>
+        <hr class="separator">
+        <footer>
+            <address>
+                <a href="mailto:it@mail.ru" class="contacts-link">it@mail.ru</a>
+                <br><br>
+                <a href="tel:89050565827" class="contacts-link">89050565827</a>
+            </address>
+        </footer>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+
+    </main>
+
+    <footer></footer>
+
+</body>
+</html>
