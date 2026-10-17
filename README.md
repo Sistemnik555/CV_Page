@@ -9,6 +9,6 @@ Semantic tags
 ```
 
 
-[CV page repository] (https://sistemnik555.github.io/CV_Page/)
+[CV page repository](https://sistemnik555.github.io/CV_Page/)
 
 ![image](assets/photo.jpg)
